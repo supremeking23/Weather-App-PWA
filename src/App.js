@@ -27,6 +27,7 @@ function App() {
 	return (
 		<>
 			<div className="main-container">
+				<h1 style={{ color: "#ffffff" }}>Weather Forecaster Application</h1>
 				<input
 					type="text"
 					className="search"
@@ -57,6 +58,9 @@ function App() {
 						</div>
 					</div>
 				)}
+				<h3 style={{ color: "#ffffff" }}>
+					Created By Ivan Christian Jay Funcion
+				</h3>
 			</div>
 		</>
 	);
